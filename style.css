@@ -1,4 +1,5 @@
-body{
+body
+{
     background-color: black;
     color: white;
     font-size: 20px;
@@ -8,9 +9,10 @@ body{
     padding: 0;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: rgb(255, 255, 255); }
 
-.header1{
+.header1
+{
     font-size: 100px;
     color: rgb(255, 255, 255);
     background-color: rgb(189, 189, 189);
@@ -19,7 +21,26 @@ a { text-decoration: none; }
     border-radius: 100px;
 }
 
-.header1:hover{
+.header2
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.header2:hover
+{
+    font-size: 30px;
+    color: rgb(209, 209, 209);
+}
+
+.header2:focus
+{
+    font-size: 30px;
+    color: rgb(122, 122, 122);
+}
+
+.header1:hover
+{
     font-size: 100px;
     color: rgb(209, 209, 209);
     background-color: rgb(189, 189, 189);
@@ -28,11 +49,32 @@ a { text-decoration: none; }
     border-radius: 100px;
 }
 
-.header1:focus{
+.header1:focus
+{
     font-size: 100px;
     color: rgb(122, 122, 122);
     background-color: rgb(189, 189, 189);
     padding: 20px;
     margin: 40px;
     border-radius: 100px;
+}
+
+button 
+{
+    font-size: 40px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+button:hover
+{
+    font-size: 40px;
+    color: white;
+    background-color: rgb(129, 129, 129);
+    padding: 10px;
+    border: none;
+    outline: none;
 }
