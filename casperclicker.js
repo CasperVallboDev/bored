@@ -13,3 +13,16 @@ function SetText(text)
 {
     scoreText.innerHTML = text;
 }
+
+function CheckEasterEggs()
+{
+    if (score == 69)
+    {
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+
+    if (score == 420)
+    {
+        window.open("https://www.youtube.com/watch?v=AYiP4wef28I");
+    }
+}
