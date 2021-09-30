@@ -25,4 +25,9 @@ function CheckEasterEggs()
     {
         window.open("https://www.youtube.com/watch?v=AYiP4wef28I");
     }
+    
+    if (score == 911)
+    {
+        window.open("https://www.youtube.com/watch?v=oa7hsRv8-Js");
+    }
 }
